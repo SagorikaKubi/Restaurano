@@ -1,0 +1,28 @@
+@media (max-width: 991px) {
+}
+@media only screen and (max-width: 767px) {
+  .navbar-nav.ms-auto {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+  }
+
+  i {
+    color: #fff;
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 668px) {
+  .star::before,
+  .star::after {
+    left: 7.16rem;
+    width: 3.75rem;
+  }
+
+  .star::after {
+    left: 16rem;
+  }
+  .summaries {
+    display: block;
+  }
+}

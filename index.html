@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurano</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+
+    <!-- FONT AWESOME LINK -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- BOOTSTRAP CSS LINK  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- GOOGLE FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@200&family=Poppins:wght@200&family=Roboto:wght@100&family=The+Nautigal:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ANIMATE CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- NAV BAR  -->
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#pages">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#pages">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#explore">Explore</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#book-table">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#blog">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-danger primary-btn">Book Now</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section id="home">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/header-bg.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5
+                  class="fs-1 bold animate__animated animate__bounceInRight animate__delay-1s"
+                >
+                  Welcome To
+                </h5>
+                <h2
+                  class="animate__animated animate__bounceInLeft animate__delay-2s"
+                >
+                  The
+                  <span class="text-danger">Restaurano</span>
+                </h2>
+                <p
+                  class="text-uppercase fs-3 animate__animated animate__bounceInLeft animate__delay-3s"
+                >
+                  we are the glory beginning in restaurant business
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/header-bg1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5
+                  class="fs-1 bold animate__animated animate__slideInDown animate__delay-1s"
+                >
+                  Welcome To
+                </h5>
+                <h2
+                  class="animate__animated animate__fadeInUp animate__delay-2s"
+                >
+                  The <span class="text-danger">Restaurano</span>
+                </h2>
+                <p
+                  class="text-uppercase fs-3 animate__animated animate__zoomIn animate__delay-3s"
+                >
+                  we are the glory beginning in restaurant business
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/header-bg2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5
+                  class="fs-1 bold animate__animated animate__zoomIn animate__delay-1s"
+                >
+                  Welcome To
+                </h5>
+                <h2
+                  class="animate__animated animate__fadeInLeft animate__delay-2s"
+                >
+                  The <span class="text-danger">Restaurano</span>
+                </h2>
+                <p
+                  class="text-uppercase fs-3 animate__animated animate__zoomIn animate__delay-3s"
+                >
+                  we are the glory beginning in restaurant business
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <!-- section-2 header description  -->
+      <section id="section-description">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="p-4 text-center">
+                <h1 class="text-danger fw-normal discover">Discover</h1>
+                <h5 class="text-uppercase">Most famous restaurant</h5>
+                <h5 class="star p-2">
+                  <i class="fas fa-star text-danger"></i>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 2 pages  -->
+      <section id="pages">
+        <div class="container py-5">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="card h-100 border-0 text-center">
+                <i class="fas fa-coffee pt-3 text-danger"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Breakfast</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Amet placeat autem eius quae totam pariatur?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card border-0 h-100 text-center">
+                <i class="fas fa-cloud-meatball pt-3 text-danger"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Lunch</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Voluptatum dignissimos esse delectus fugiat distinctio quia.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card border-0 h-100 text-center">
+                <i class="fas fa-utensils pt-3 text-danger"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Dinner</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Reprehenderit assumenda aliquam officiis a id veniam.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 3 about  -->
+      <section id="about ">
+        <div class="row align-items-center my-5">
+          <div class="col-lg-5 col-md-12 mb-lg-0 mb-5">
+            <div class="card border-0">
+              <img src="images/our-story.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <div class="p-4 text-center">
+              <h1 class="text-danger fw-normal discover">Our Story</h1>
+              <h5 class="text-uppercase">Most famous restaurant</h5>
+              <h5 class="star p-2">
+                <i class="fas fa-star text-danger"></i>
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                deserunt cum maxime odio repellendus necessitatibus commodi
+                adipisci ullam. Molestias autem, sit voluptatum deleniti est
+                laborum voluptate repudiandae quia sed aliquid aperiam debitis,
+                ea dolor qui delectus quaerat obcaecati illum distinctio?
+              </p>
+              <button class="main-btn">Read More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section-4 header description  -->
+      <section id="section-description">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="p-4 text-center">
+                <h1 class="text-danger fw-normal discover">Our Menu</h1>
+                <h5 class="text-uppercase">Explore out foods</h5>
+                <h5 class="star p-2">
+                  <i class="fas fa-star text-danger"></i>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section-4 explore food  -->
+      <section id="explore">
+        <div class="container">
+          <div class="row g-3">
+            <div class="col-md-6 col-12">
+              <div class="p-3 bg-light border rounded menu-description">
+                <div class="d-flex justify-content-between">
+                  <h5>Merguez Sausage Bread</h5>
+                  <h4 class="price text-danger">$56.23</h4>
+                </div>
+                <div class="pt-2">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Tenetur pariatur voluptatem
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="p-3 border rounded bg-light menu-description">
+                <div class="d-flex justify-content-between">
+                  <h5>Merguez Sausage Bread</h5>
+                  <h4 class="price text-danger">$56.23</h4>
+                </div>
+                <div class="pt-2">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Tenetur pariatur voluptatem
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="p-3 border rounded bg-light menu-description">
+                <div class="d-flex justify-content-between">
+                  <h5>Merguez Sausage Bread</h5>
+                  <h4 class="price text-danger">$56.23</h4>
+                </div>
+                <div class="pt-2">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Tenetur pariatur voluptatem
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="p-3 border rounded bg-light menu-description">
+                <div class="d-flex justify-content-between">
+                  <h5>Merguez Sausage Bread</h5>
+                  <h4 class="price text-danger">$56.23</h4>
+                </div>
+                <div class="pt-2">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Tenetur pariatur voluptatem
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="p-3 border rounded bg-light menu-description">
+                <div class="d-flex justify-content-between">
+                  <h5>Merguez Sausage Bread</h5>
+                  <h4 class="price text-danger">$56.23</h4>
+                </div>
+                <div class="pt-2">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Tenetur pariatur voluptatem
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="p-3 border rounded bg-light menu-description">
+                <div class="d-flex justify-content-between">
+                  <h5>Merguez Sausage Bread</h5>
+                  <h4 class="price text-danger">$56.23</h4>
+                </div>
+                <div class="pt-2">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Tenetur pariatur voluptatem
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section-5 book for table  -->
+      <section id="book-table">
+        <div class="book-table mb-5">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="p-4 text-center">
+                <h1 class="text-danger fw-normal discover">
+                  Quick reservation
+                </h1>
+                <h5 class="text-uppercase text-light">
+                  reservation for your comfort
+                </h5>
+                <h5 class="star p-2">
+                  <i class="fas fa-star text-danger"></i>
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="container px-4">
+            <div class="row gx-5 text-center">
+              <div class="col-md-6 col-lg-4 mb-3">
+                <input type="text" name="" id="" placeholder="Name*" />
+              </div>
+              <div class="col-md-6 col-lg-4 mb-3">
+                <input type="email" name="" id="" placeholder="Email*" />
+              </div>
+              <div class="col-md-6 col-lg-4 mb-3">
+                <input type="number" name="" id="" placeholder="Number*" />
+              </div>
+              <div class="col-md-6 col-lg-4 mb-3">
+                <input type="number" name="" id="" placeholder="Time*" />
+              </div>
+              <div class="col-md-6 col-lg-4 mb-3">
+                <input type="number" name="" id="" placeholder="Date*" />
+              </div>
+              <div class="col-md-6 col-lg-4 mb-3">
+                <input type="number" name="" id="" placeholder="Guest*" />
+              </div>
+              <button class="main-btn">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section-6 header description  -->
+      <section id="section-description">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="p-4 text-center">
+                <h1 class="text-danger fw-normal discover">Our Team</h1>
+                <h5 class="text-uppercase">meet with our cook</h5>
+                <h5 class="star p-2">
+                  <i class="fas fa-star text-danger"></i>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section-6 team member -->
+      <section id="team">
+        <div class="container mb-5 pb-5">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col-lg-3 col-md-6 mb-lg-0 mb-3">
+              <div class="card h-100 border-0">
+                <img src="images/team-1.jpg" class="card-img-top" alt="..." />
+                <div class="card-body text-center">
+                  <h5 class="card-title text-danger">Jenith Timber</h5>
+                  <p class="card-text">Deserrt Specialist</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-lg-0 mb-3">
+              <div class="card h-100 border-0">
+                <img src="images/team-2.jpg" class="card-img-top" alt="..." />
+                <div class="card-body text-center">
+                  <h5 class="card-title text-danger">Jemie Carnive</h5>
+                  <p class="card-text">Senior Chef</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-lg-0 mb-3">
+              <div class="card h-100 border-0">
+                <img src="images/team-3.jpg" class="card-img-top" alt="..." />
+                <div class="card-body text-center">
+                  <h5 class="card-title text-danger">Kens Harvey</h5>
+                  <p class="card-text">Coffee Expert</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-lg-0 mb-3">
+              <div class="card h-100 border-0">
+                <img src="images/team-4.jpg" class="card-img-top" alt="..." />
+                <div class="card-body text-center">
+                  <h5 class="card-title text-danger">Jef Herday</h5>
+                  <p class="card-text">Junior Assistant</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section-7 header description  -->
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="p-4 text-center">
+                <h1 class="text-danger fw-normal discover">Our Blog</h1>
+                <h5 class="text-uppercase">meet with our cook</h5>
+                <h5 class="star p-2">
+                  <i class="fas fa-star text-danger"></i>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section-7 Blogs -->
+      <section id="blog">
+        <div class="blog-section mb-5">
+          <div class="container">
+            <div class="row g-5">
+              <div class="col-lg-6 col-sm-12 blog-div">
+                <div class="p-3 border shadow rounded d-flex">
+                  <div class="blog-img">
+                    <img class="img-fluid" src="images/blog-1.jpg" alt="" />
+                  </div>
+                  <div class="ps-4">
+                    <h5 class="text-danger">12 June 2021</h5>
+                    <h5>how to cook of chinese noodles</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Dicta deleniti laudantium ....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 blog-div">
+                <div class="p-3 border shadow rounded d-flex">
+                  <div class="blog-img">
+                    <img class="img-fluid" src="images/blog-2.jpg" alt="" />
+                  </div>
+                  <div class="ps-4">
+                    <h5 class="text-danger">12 June 2021</h5>
+                    <h5>how to cook of chinese noodles</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Dicta deleniti laudantium ....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 blog-div">
+                <div class="p-3 border shadow rounded d-flex">
+                  <div class="blog-img">
+                    <img class="img-fluid" src="images/blog-3.jpg" alt="" />
+                  </div>
+                  <div class="ps-4">
+                    <h5 class="text-danger">12 June 2021</h5>
+                    <h5>how to cook of chinese noodles</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Dicta deleniti laudantium ....
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 blog-div">
+                <div class="p-3 border shadow rounded d-flex">
+                  <div class="blog-img">
+                    <img class="img-fluid" src="images/blog-4.jpg" alt="" />
+                  </div>
+                  <div class="ps-4">
+                    <h5 class="text-danger">12 June 2021</h5>
+                    <h5>how to cook of chinese noodles</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Dicta deleniti laudantium ....
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section-8 testimonials -->
+      <section id="testimonial">
+        <div class="testimonial-section mb-5">
+          <div class="container">
+            <div class="text-center p-5">
+              <h2 class="text-danger fw-normal discover">Testimonial</h2>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 col-lg-10 offset-lg-1">
+                <div
+                  id="carouselExampleCaptions"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active bg-danger">
+                      <div class="carousel-caption pt-5 bg-white rounded">
+                        <img src="images/review-1.jpg" alt="" />
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Vero animi earum perferendis ad, ea ducimus!
+                        </p>
+                        <h5 class="text-dark">Jonathon Doe - Designer</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item bg-danger">
+                      <div class="carousel-caption pt-5 bg-white rounded">
+                        <img src="images/review-2.jpg" alt="" />
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing
+                          elit. Cumque fugiat, magni natus sunt quidem totam.
+                        </p>
+                        <h5 class="text-dark">Sirien Smith - Architecture</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item bg-danger">
+                      <div class="carousel-caption pt-5 bg-white rounded">
+                        <img src="images/review-1.jpg" alt="" />
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Vero animi earum perferendis ad, ea ducimus!
+                        </p>
+                        <h5 class="text-danger">Jonathon Doe - Designer</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section-9 newsletter  -->
+      <section id="newsletter" class="bg-light py-2">
+        <div class="newsletter my-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="text-content text-center p-4">
+                  <h2>Hurry up! Subscribe our newsletter and get 25% off</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Beatae, nemo!
+                  </p>
+                </div>
+                <form action="" class="newsletter">
+                  <div class="row">
+                    <div class="col-sm-8 col-12">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email Address here"
+                        name="email"
+                        id="email"
+                      />
+                    </div>
+                    <div class="col-md-4 col-12 mt-lg-0 mt-3">
+                      <button class="main-btn">Subscribe</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="bg-dark">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 p-5">
+            <div class="">
+              <img src="images/logo.png" alt="" />
+              <p class="text-white py-3">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis odio quia impedit, veritatis magni explicabo.
+              </p>
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""> <i class="fab fa-instagram"></i></a>
+              <a href=""> <i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12 p-5">
+            <div class="summaries">
+              <div class="useful-links pe-5 mb-5">
+                <h4 class="pb-3">Useful links</h4>
+                <p>About Us</p>
+                <p>Recent listings</p>
+                <p>Feautured listings</p>
+                <p>Our Service</p>
+              </div>
+              <div class="useful-links pe-5 mb-5">
+                <h4 class="pb-3">Informations</h4>
+                <p>Brand</p>
+                <p>Gift Vouchers</p>
+                <p>Affiliates</p>
+                <p>Specials</p>
+              </div>
+              <div class="useful-links pe-5 mb-5">
+                <h4 class="pb-3">Community</h4>
+                <p>Terms of Services</p>
+                <p>Advertise with Us</p>
+                <p>Policy</p>
+                <p>Help</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center pb-4">
+            <small class="text-white"
+              >@Sagorika Kubi. All rights researved.</small
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- BOOTSTRAP JS LINK  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
